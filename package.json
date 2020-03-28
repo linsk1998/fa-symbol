@@ -12,6 +12,7 @@
   "scripts": {
     "build": "node build.js"
   },
+  "repository": { "type": "git", "url": "https://github.com/linsk1998/fontawesome5.git" },
   "author": "linsk",
   "license": "MIT"
 }
