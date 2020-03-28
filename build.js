@@ -18,7 +18,7 @@ var result = convert.xml2js(xml, options); // or convert.xml2json(xml, options)
 var fontElements=result.elements.last.elements.last.elements[0].elements;
 var nodes=[];
 var esms=[];
-var dtss=['declare module "fontawesome5-solid" {'];
+var dtss=['declare module "fa-symbol" {'];
 fontElements.forEach(function(ele){
 	if(ele.type==='element' && ele.name==='glyph'){
 		nodes.push("exports."+camelCase(ele.attributes['glyph-name'])+'="'+ele.attributes['unicode']+'";');

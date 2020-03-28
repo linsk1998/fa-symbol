@@ -1,4 +1,4 @@
-declare module "fontawesome5-solid" {
+declare module "fa-symbol" {
 export var glassMartini:string;
 export var music:string;
 export var search:string;
